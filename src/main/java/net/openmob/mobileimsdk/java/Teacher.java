@@ -3,13 +3,9 @@ package net.openmob.mobileimsdk.java;
 public class Teacher {
 
     private String name;
-
     private int age;
-
     private int sex;
-
     private Subject subject;
-
     private boolean isHead;
 
     public void prepareForLesson(){
@@ -46,4 +42,43 @@ public class Teacher {
         }
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getSex() {
+        return sex;
+    }
+
+    public void setSex(int sex) {
+        this.sex = sex;
+    }
+
+    public Subject getSubject() {
+        return subject;
+    }
+
+    public void setSubject(Subject subject) {
+        this.subject = subject;
+    }
+
+    public boolean isHead() {
+        return isHead;
+    }
+
+    public void setHead(boolean head) {
+        isHead = head;
+    }
 }

@@ -4,15 +4,10 @@ public class Student {
     private static String schoolName = "HUBEI_XIANTAOSHI_MIDDLE_SCHOOL";
 
     private String name;
-
     private int age;
-
     private int sex;
-
     private int grade;
-
     private int classNumber;
-
     private int classOrder;
 
     public void study(Subject subject){
