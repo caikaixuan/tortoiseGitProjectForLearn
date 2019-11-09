@@ -1,7 +1,7 @@
 package net.openmob.mobileimsdk.java;
 
 public class Student {
-    private static String SCHOOL_NAME = "HUBEI_WUHAN_MIDDLE_SCHOOL";
+    private static String schoolName = "HUBEI_XIANTAOSHI_MIDDLE_SCHOOL";
 
     private String name;
 
