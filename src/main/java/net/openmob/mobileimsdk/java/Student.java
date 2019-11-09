@@ -66,4 +66,8 @@ public class Student {
     public void study(Subject subject){
         System.out.println("I am studying " + subject.getNameZh());
     }
+
+    public void exam(Subject subject){
+        System.out.println("I am exam " + subject.getNameZh());
+    }
 }
