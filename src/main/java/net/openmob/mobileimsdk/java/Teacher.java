@@ -65,4 +65,8 @@ public class Teacher {
     public void operateGame(){
         System.out.println("I am operating a game");
     }
+
+    public void takeSalary(){
+        System.out.println("I hava get my salary of last month");
+    }
 }
