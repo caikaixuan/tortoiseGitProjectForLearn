@@ -10,6 +10,34 @@ public class Teacher {
 
     private Subject subject;
 
+    public void prepareForLesson(){
+        System.out.println("I am prepare " + this.subject.getNameEn() + "'s lesson");
+    }
+
+    public void teach(Student student){
+        System.out.println("I am teaching student whose name is " + student.getName());
+    }
+
+    public void monitorExam(){
+        System.out.println("I am monitoring " + this.subject.getNameEn() + "'s exam");
+    }
+
+    public void award(Student student){
+        System.out.println("I am awarding student whose name is " + student.getName());
+    }
+
+    public void punish(Student student){
+        System.out.println("I am punishing student whose name is " + student.getName());
+    }
+
+    public void operateGame(){
+        System.out.println("I am operating a game");
+    }
+
+    public void spyOn(){
+        System.out.println("I am spyying on a class");
+    }
+
     public String getName() {
         return name;
     }
@@ -42,27 +70,5 @@ public class Teacher {
         this.subject = subject;
     }
 
-    public void teach(Student student){
-        System.out.println("I am teaching student whose name is " + student.getName());
-    }
 
-    public void punish(Student student){
-        System.out.println("I am punishing student whose name is " + student.getName());
-    }
-
-    public void award(Student student){
-        System.out.println("I am awarding student whose name is " + student.getName());
-    }
-
-    public void monitorExam(){
-        System.out.println("I am monitoring " + this.subject.getNameEn() + "'s exam");
-    }
-
-    public void prepareForLesson(){
-        System.out.println("I am prepare " + this.subject.getNameEn() + "'s lesson");
-    }
-
-    public void operateGame(){
-        System.out.println("I am operating a game");
-    }
 }
