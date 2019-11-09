@@ -41,4 +41,8 @@ public class Teacher {
     public void setSubject(String subject) {
         this.subject = subject;
     }
+
+    public void teach(){
+        System.out.println("this is a method that teach student");
+    }
 }
