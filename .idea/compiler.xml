@@ -9,5 +9,8 @@
         <module name="mobilesdkjava" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mobilesdkjava" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
