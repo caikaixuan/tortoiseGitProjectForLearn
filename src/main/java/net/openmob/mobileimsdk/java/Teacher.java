@@ -8,7 +8,7 @@ public class Teacher {
 
     private int sex;
 
-    private String subject;
+    private Subject subject;
 
     public String getName() {
         return name;
@@ -34,11 +34,11 @@ public class Teacher {
         this.sex = sex;
     }
 
-    public String getSubject() {
+    public Subject getSubject() {
         return subject;
     }
 
-    public void setSubject(String subject) {
+    public void setSubject(Subject subject) {
         this.subject = subject;
     }
 
