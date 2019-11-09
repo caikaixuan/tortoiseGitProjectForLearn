@@ -63,7 +63,7 @@ public class Student {
         this.classOrder = classOrder;
     }
 
-    public void study(){
-        System.out.println("I am studying");
+    public void study(Subject subject){
+        System.out.println("I am studying " + subject.getNameZh());
     }
 }
