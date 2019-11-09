@@ -11,6 +11,8 @@ public class Student {
 
     private int classNumber;
 
+    private int classOrder;
+
     public String getName() {
         return name;
     }
@@ -47,7 +49,15 @@ public class Student {
         return classNumber;
     }
 
-    public void setClassNum(int classNumber) {
+    public void setClassNumber(int classNumber) {
         this.classNumber = classNumber;
+    }
+
+    public int getClassOrder() {
+        return classOrder;
+    }
+
+    public void setClassOrder(int classOrder) {
+        this.classOrder = classOrder;
     }
 }
