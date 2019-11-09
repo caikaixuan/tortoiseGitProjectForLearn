@@ -41,4 +41,8 @@ public class Teacher {
     public void setSubject(String subject) {
         this.subject = subject;
     }
+
+    public void teache(Student student){
+        System.out.println("I am teaching student whose name is " + student.getName());
+    }
 }
