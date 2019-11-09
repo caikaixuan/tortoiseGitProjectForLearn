@@ -9,7 +9,7 @@ public class Student {
 
     private int grade;
 
-    private int classNum;
+    private int classNumber;
 
     public String getName() {
         return name;
@@ -43,11 +43,11 @@ public class Student {
         this.grade = grade;
     }
 
-    public int getClassNum() {
-        return classNum;
+    public int getClassNumber() {
+        return classNumber;
     }
 
-    public void setClassNum(int classNum) {
-        this.classNum = classNum;
+    public void setClassNum(int classNumber) {
+        this.classNumber = classNumber;
     }
 }
