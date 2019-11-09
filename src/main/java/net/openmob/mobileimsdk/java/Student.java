@@ -70,4 +70,8 @@ public class Student {
     public void exam(Subject subject){
         System.out.println("I am exam " + subject.getNameZh());
     }
+
+    public void takeLesson(Subject subject){
+        System.out.println("I am take " + subject.getNameEn() + "'s lesson");
+    }
 }
