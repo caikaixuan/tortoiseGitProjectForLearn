@@ -53,4 +53,8 @@ public class Teacher {
     public void award(Student student){
         System.out.println("I am awarding student whose name is " + student.getName());
     }
+
+    public void monitorExam(){
+        System.out.println("I am monitor " + this.subject.getNameEn() + "'s exam");
+    }
 }
