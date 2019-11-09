@@ -10,6 +10,8 @@ public class Teacher {
 
     private Subject subject;
 
+    private boolean isHead;
+
     public String getName() {
         return name;
     }
@@ -42,6 +44,14 @@ public class Teacher {
         this.subject = subject;
     }
 
+    public boolean isHead() {
+        return isHead;
+    }
+
+    public void setHead(boolean head) {
+        isHead = head;
+    }
+
     public void teach(Student student){
         System.out.println("I am teaching student whose name is " + student.getName());
     }
@@ -68,5 +78,11 @@ public class Teacher {
 
     public void takeSalary(){
         System.out.println("I hava get my salary of last month");
+    }
+
+    public void spyOn(){
+        if(this.isHead){
+            System.out.println("I am spyying on the class");
+        }
     }
 }
