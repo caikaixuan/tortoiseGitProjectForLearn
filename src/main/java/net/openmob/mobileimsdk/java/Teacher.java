@@ -49,4 +49,8 @@ public class Teacher {
     public void punish(Student student){
         System.out.println("I am punishing student whose name is " + student.getName());
     }
+
+    public void award(Student student){
+        System.out.println("I am awarding student whose name is " + student.getName());
+    }
 }
