@@ -57,4 +57,8 @@ public class Teacher {
     public void monitorExam(){
         System.out.println("I am monitor " + this.subject.getNameEn() + "'s exam");
     }
+
+    public void operateGame(){
+        System.out.println("I am operating a game");
+    }
 }
