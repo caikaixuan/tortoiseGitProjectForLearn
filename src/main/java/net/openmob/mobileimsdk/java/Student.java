@@ -62,4 +62,8 @@ public class Student {
     public void setClassOrder(int classOrder) {
         this.classOrder = classOrder;
     }
+
+    public void study(){
+        System.out.println("I am studying");
+    }
 }
