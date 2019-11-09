@@ -15,6 +15,18 @@ public class Student {
 
     private int classOrder;
 
+    public void study(Subject subject){
+        System.out.println("I am studying " + subject.getNameZh());
+    }
+
+    public void exam(Subject subject){
+        System.out.println("I am exam " + subject.getNameZh());
+    }
+
+    public void takeLesson(Subject subject){
+        System.out.println("I am take " + subject.getNameEn() + "'s lesson");
+    }
+
     public String getName() {
         return name;
     }
@@ -61,17 +73,5 @@ public class Student {
 
     public void setClassOrder(int classOrder) {
         this.classOrder = classOrder;
-    }
-
-    public void study(Subject subject){
-        System.out.println("I am studying " + subject.getNameZh());
-    }
-
-    public void exam(Subject subject){
-        System.out.println("I am exam " + subject.getNameZh());
-    }
-
-    public void takeLesson(Subject subject){
-        System.out.println("I am take " + subject.getNameEn() + "'s lesson");
     }
 }

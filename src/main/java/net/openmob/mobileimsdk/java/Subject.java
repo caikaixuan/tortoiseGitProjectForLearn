@@ -1,6 +1,6 @@
 package net.openmob.mobileimsdk.java;
 
-public class Subject {
+public class Subject implements Comparable<Subject>{
     private String nameEn;
     private String nameZh;
     private int fullScore;
@@ -36,5 +36,13 @@ public class Subject {
 
     public void setPriority(int priority) {
         this.priority = priority;
+    }
+
+    public int compareTo(Subject o) {
+        if(o.getPriority() == this.getPriority()){
+            return 0;
+        }else{
+            return o.getPriority() > this.getPriority()?-1:1;
+        }
     }
 }
