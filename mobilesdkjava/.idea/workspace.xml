@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/openmob/mobileimsdk/java/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -38,6 +38,15 @@
                 <element signature="e#800#801#0" expanded="true" />
                 <element signature="e#840#841#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8400">
+              <caret line="350" column="13" lean-forward="true" selection-start-line="350" selection-start-column="13" selection-end-line="350" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,6 +96,11 @@
             <path>
               <item name="mobilesdkjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobilesdkjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobilesdkjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobilesdkjava" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,10 +183,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3016000" />
+    <option name="totallyTimeSpent" value="3343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
