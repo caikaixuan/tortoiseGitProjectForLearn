@@ -1,16 +1,25 @@
 package net.openmob.mobileimsdk.java;
 
 public class School {
-    private String name;
+    private String nameEn;
+    private String nameCn;
     private String address;
     private int level;
 
-    public String getName() {
-        return name;
+    public String getNameEn() {
+        return nameEn;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNameEn(String nameEn) {
+        this.nameEn = nameEn;
+    }
+
+    public String getNameCn() {
+        return nameCn;
+    }
+
+    public void setNameCn(String nameCn) {
+        this.nameCn = nameCn;
     }
 
     public String getAddress() {
