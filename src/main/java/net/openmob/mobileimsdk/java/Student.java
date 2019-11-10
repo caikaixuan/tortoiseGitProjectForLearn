@@ -15,8 +15,8 @@ public class Student {
         System.out.println("I am studying " + subject.getNameZh());
     }
 
-    public void exam(Subject subject){
-        System.out.println("I am exam " + subject.getNameZh());
+    public void exam(Exam exam){
+        System.out.println("I am examing " + exam.getSubject().getNameZh());
     }
 
     public void takeLesson(Subject subject){
