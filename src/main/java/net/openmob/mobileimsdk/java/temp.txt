@@ -2,3 +2,4 @@ this file is used to test ignore function
 thinkpad modify one:database link = "guangdongsheng-shenzhen-longgangqu-thinkpad x220"
 Mac modify one:database link = "shenzhenshi-longgangqu-kaixuan's Mac"
 Mac modify two
+common redis link = "192.168.1.1"
