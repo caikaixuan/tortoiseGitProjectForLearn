@@ -29,8 +29,8 @@ public class Teacher {
         System.out.println("I am punishing student whose name is " + student.getName());
     }
 
-    public void operateGame(){
-        System.out.println("I am operating a game");
+    public void operateGame(Game game){
+        System.out.println("I am operating " + game.getNameEn() + "game");
     }
 
     public void takeSalary(){
