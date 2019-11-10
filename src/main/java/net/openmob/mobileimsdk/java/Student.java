@@ -9,6 +9,7 @@ public class Student {
     private int grade;
     private int classNumber;
     private int classOrder;
+    private School school;
 
     public void study(Subject subject){
         System.out.println("I am studying " + subject.getNameZh());
@@ -68,5 +69,13 @@ public class Student {
 
     public void setClassOrder(int classOrder) {
         this.classOrder = classOrder;
+    }
+
+    public School getSchool() {
+        return school;
+    }
+
+    public void setSchool(School school) {
+        this.school = school;
     }
 }

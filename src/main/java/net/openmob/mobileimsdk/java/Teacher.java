@@ -7,6 +7,7 @@ public class Teacher {
     private int sex;
     private Subject subject;
     private boolean isHead;
+    private School school;
 
     public void prepareForLesson(){
         System.out.println("I am prepare " + this.subject.getNameEn() + "'s lesson");
@@ -80,5 +81,13 @@ public class Teacher {
 
     public void setHead(boolean head) {
         isHead = head;
+    }
+
+    public School getSchool() {
+        return school;
+    }
+
+    public void setSchool(School school) {
+        this.school = school;
     }
 }
