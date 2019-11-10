@@ -1,4 +1,4 @@
 this file is used to test ignore function
-thinkpad modify one:database link = "thinkpad x220"
+thinkpad modify one:database link = "guangdongsheng-shenzhen-longgangqu-thinkpad x220"
 Mac modify one
 Mac modify two
