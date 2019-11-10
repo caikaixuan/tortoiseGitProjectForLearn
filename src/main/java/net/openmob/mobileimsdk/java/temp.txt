@@ -4,3 +4,5 @@ Mac modify one:database link = "shenzhenshi-longgangqu-kaixuan's Mac"
 Mac modify two
 common redis link = "192.168.1.1"
 scan_package_dir = "com.example.tortoise.*"
+user.name = "ckx"
+user.password = "ckx930408"
