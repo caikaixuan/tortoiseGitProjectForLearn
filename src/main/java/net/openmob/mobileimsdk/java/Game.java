@@ -7,6 +7,7 @@ public class Game {
     private String nameZh;
     private Date startTime;
     private Date endTime;
+    private Award award;
 
     public String getNameEn() {
         return nameEn;
@@ -38,5 +39,13 @@ public class Game {
 
     public void setEndTime(Date endTime) {
         this.endTime = endTime;
+    }
+
+    public Award getAward() {
+        return award;
+    }
+
+    public void setAward(Award award) {
+        this.award = award;
     }
 }

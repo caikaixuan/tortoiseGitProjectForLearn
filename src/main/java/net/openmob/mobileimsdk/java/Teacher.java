@@ -21,8 +21,8 @@ public class Teacher {
         System.out.println("I am monitoring " + this.subject.getNameEn() + "'s exam");
     }
 
-    public void award(Student student){
-        System.out.println("I am awarding student whose name is " + student.getName());
+    public void award(Student student,Game game){
+        System.out.println("I am awarding student whose name is " + student.getName() + " " + game.getAward().getNameEn());
     }
 
     public void punish(Student student){
@@ -39,7 +39,7 @@ public class Teacher {
 
     public void spyOn(){
         if(this.isHead){
-            System.out.println("I am spyying on the class");
+            System.out.println("I am spying on the class");
         }
     }
 
