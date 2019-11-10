@@ -6,3 +6,4 @@ common redis link = "192.168.1.1"
 scan_package_dir = "com.example.tortoise.*"
 user.name = "ckx"
 user.password = "ckx930408"
+client.max.num = 100
